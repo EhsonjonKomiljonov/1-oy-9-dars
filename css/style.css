@@ -59,6 +59,7 @@ p {
   justify-content: space-evenly;
   display: flex;
   align-items: center;
+  margin: 121px 0 121px;
 }
 
 .main-left {
@@ -130,9 +131,10 @@ p {
 
 
 .right-link {
+  display: inline-block;
   width: 540px;
   margin: 0;
-  padding: 17px 0;
+  padding: 17px 110px;
   box-shadow: 0px 8px 0px rgba(0, 0, 0, 0.14688);
   border-radius: 10px;
   font-style: normal;
@@ -155,23 +157,6 @@ p {
   color: #FFFFFF;
 }
 
-@media only screen and (max-width:426px) {
-  .right-link {
-    display: block;
-    width: 100%;
-    max-width: 320px;
-    margin: 0 auto;
-    padding: 18px 66px;
-    text-align: center;
-  }
-}
-
-
-
-/*                                                   FINISHED MAIN-RIGHT SECTION */
-
-
-/*                                                   STARTED MAIN-RIGHT SECTION */
 
 .form-right {
   margin-top: 24px;
@@ -230,6 +215,15 @@ input:focus {
 }
 
 @media only screen and (max-width:426px) {
+  .right-link {
+    display: block;
+    width: 100%;
+    max-width: 320px;
+    margin: 0 auto;
+    padding: 18px 66px;
+    text-align: center;
+  }
+
   .form-right {
     max-width: 327px;
     padding: 24px;
