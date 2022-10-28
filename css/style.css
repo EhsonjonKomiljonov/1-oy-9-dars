@@ -102,6 +102,7 @@ p {
   .main {
     flex-direction: column;
     padding-bottom: 68px;
+    margin: 0;
   }
 
   .main-left {
